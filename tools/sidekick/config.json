@@ -1,0 +1,35 @@
+{
+  "project": "franklin-asset-selector",
+  "plugins": [
+    {
+      "id": "asset-library",
+      "title": "AEM Assets Library",
+      "environments": ["edit"],
+      "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?repository-id=delivery-p18757-e48049.adobeaemcloud.com",
+      "isPalette": true,
+      "includePaths": ["**.docx**"],
+      "passConfig": true,
+      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
+    },
+    {
+      "id": "asset-library-v1",
+      "title": "AEM Assets Library - Contextual",
+      "environments": ["edit"],
+      "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?repository-id=delivery-p18757-e48049.adobeaemcloud.com&extConfigUrl=https://main--assets-selector-ext--shrotia.hlx.page/tools/assets-selector/config-contextual.json",
+      "isPalette": true,
+      "includePaths": ["**.docx**"],
+      "passConfig": true,
+      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
+    },
+    {
+      "id": "asset-library-v2",
+      "title": "AEM Assets Library - Hybrid",
+      "environments": ["edit"],
+      "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?aem-tier=author&rail=false&extConfigUrl=https://main--assets-selector-ext--shrotia.hlx.page/tools/assets-selector/config_hybrid.json",
+      "isPalette": true,
+      "includePaths": ["**.docx**"],
+      "passConfig": true,
+      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:800px; height: calc(100vh - 60px)"
+    }
+  ]
+}
